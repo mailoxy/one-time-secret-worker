@@ -1,0 +1,13 @@
+name = "one-time-secret"
+main = "src/index.ts"
+compatibility_date = "2022-08-19"
+account_id  = ""
+workers_dev = true
+node_compat = true
+
+kv_namespaces = [
+   { binding = "SECRET_STORE", id = "", preview_id = "" }
+]
+
+[placement]
+mode = "smart"
