@@ -22,4 +22,4 @@ wrangler publish
 
 ## Demo
 
-https://api.one-time-secret.com
+https://one-time-secret.com
