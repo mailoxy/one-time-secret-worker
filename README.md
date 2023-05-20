@@ -1,4 +1,4 @@
-One-Time-Secret service (based on CloudFlare Worker/KV/Pages)
+One-Time-Secret service (based on CloudFlare Workers/KV/Pages)
 
 Simple Cloudflare Worker API for a One-Time-Secret service. This service allows to generate a secret, retrieve it once and then it gets deleted from the server. It receives an encrypted secret from the client, stores it in the Cloudflare KV, and responds with a unique key for retrieving the secret. Retrieving the secret can be done only once. On second attempt, the secret would have been deleted.
   
